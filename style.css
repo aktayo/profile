@@ -23,6 +23,9 @@ h1 {
   grid-template-columns: 15% 15% 15% 3%;
   margin-top: 12px;
 }
+a{
+  color: #faf7f7;
+}
 img {
     width: 150px;
     height: 150px;
