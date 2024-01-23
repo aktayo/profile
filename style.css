@@ -1,0 +1,103 @@
+body {
+  font-family: "Arial", Verdana;
+}
+.banner,
+#footer {
+  background-color: rgb(145, 102, 151);
+  display: grid;
+  padding: 0px;
+  color: #faf7f7;
+}
+.banner {
+  gap: 8%;
+  grid-template-columns: 60% 30%;
+}
+h1 {
+  margin-left: 2em;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: "Trebuchet MS", sans-serif;
+}
+.bannerIcon {
+  display: grid;
+  grid-template-columns: 15% 15% 15% 3%;
+  margin-top: 12px;
+}
+img {
+    width: 150px;
+    height: 150px;
+  border-radius: 50%;
+  margin-top: 10em;
+  align-items: center;
+}
+.container {
+  display: flex;
+  margin: 2em;
+  border: thin;
+  border-top-right-radius: 2cm;
+  border-bottom-left-radius: 2cm;
+  height: 500px;
+  padding: 3px;
+  box-shadow: 5px 5px 10px rgb(82, 74, 74);
+  background-color: rgb(180, 180, 180);
+}
+#profile {
+  background-color: rgb(15, 2, 51);
+  color: #e0d8d8f5;
+  border-radius: 0.5em;
+  margin: 1.8em;
+  padding-left: 1em;
+  height: 80%;
+  margin-top: 2.5em;
+  box-shadow: 8px 8px 10px rgb(82, 74, 74);
+  width: 230px;
+}
+.features {
+  background-color: rgb(145, 102, 151);
+  border-radius: 30%;
+  height: 210px;
+  width: 60%;
+  margin-top: 70px;
+  margin-left: 15%;
+  padding-top: 25px;
+  padding-left: 1%;
+  padding-bottom: 0px;
+  box-shadow: 5px 5px 10px rgb(82, 74, 74);
+}
+#listHeading{
+    color: lightseagreen;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    text-shadow: 1px 1px #faf7f7 ;
+}
+ul {
+  padding: 2px;
+}
+ul li {
+  list-style: none;
+  margin-top: 2px;
+  margin-bottom: 3px;
+  margin-left: 18%;
+  color: rgb(189, 186, 182);
+}
+ul li:before {
+  content: " \1F449 ";
+}
+#contact{
+    margin-top: 10px;
+    width: 90%;
+}
+#contact > span{
+    margin-left: 30px;
+}
+.sideElement{
+    display: grid;
+    margin: 2em;
+    width: 100%;
+}
+#motto {
+  text-align: center;
+  padding: 5px;
+  margin: 1px;
+}
